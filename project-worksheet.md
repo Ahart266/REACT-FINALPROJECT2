@@ -40,7 +40,7 @@ to users for potential travel.
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [https://cloudinary.com/console/c-6531122b771e5ed52f82ce07ad6455/media_library/folders/667de55e97268c80829f44145b540f87]()
+- [https://ahart266.imgur.com/all]()
 - [https://cloudinary.com/console/c-6531122b771e5ed52f82ce07ad6455/media_library/folders/df93c0d748764fa1c52675d58f0b36c5]()
 
 
@@ -68,7 +68,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | --- | :---: |  
 | App | set up app with react router| 
 | Home | provides landing page that will lead user to main page | 
-| Main| will contain routes to about / coutries list / contact page | 
+| Main| will contain routes to about / countries list / contact page | 
 | About | will provide a description of the services of the site |
 | Countries List | provide a link that routes to countries details |
 | Countries Details | will provide details from api about each country |
@@ -85,7 +85,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | React routes/ make api calls/ parse data | A | 8hr | hrs | hrs |
 | Debug errors | B | 8hrs | hrs | hrs |
 | Creat links and buttons | B | 3hrs | hrs | hrs|
-| Learn create interactive logo/ research imgs/ Css | 8hrs | hrs | hrs |
+| Learn create interactive logo/ research imgs/ Css | B | 8hrs | hrs | hrs |
 | Youtube link | C | 1hr | hrs | hrs |
 | Total | H | 38hrs| 6hrs | 6hrs |
 
