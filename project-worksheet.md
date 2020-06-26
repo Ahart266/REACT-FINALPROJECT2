@@ -16,6 +16,7 @@ to users for potential travel.
 
 - [http://countryapi.gear.host/v1/Country/getCountries]
 
+```js
 {
     "IsSuccess": true,
     "UserMessage": null,
@@ -34,7 +35,7 @@ to users for potential travel.
             ]   
         }
 }             
-
+```
 
 ## Wireframes
 
