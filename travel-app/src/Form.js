@@ -11,7 +11,7 @@ function Form(props) {
         setCountriesTitle('')
     }
 
-    const handleChange= e => {
+    const handleChange = e => {
         console.log('handleChange clicked');
         const title = e.target.value
         setCountriesTitle()
