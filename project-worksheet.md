@@ -16,6 +16,7 @@ to users for potential travel.
 
 - [http://countryapi.gear.host/v1/Country/getCountries]
 
+```js
 {
     "IsSuccess": true,
     "UserMessage": null,
@@ -34,14 +35,14 @@ to users for potential travel.
             ]   
         }
 }             
-
+```
 
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [https://ahart266.imgur.com/all]()
-- [https://cloudinary.com/console/c-6531122b771e5ed52f82ce07ad6455/media_library/folders/df93c0d748764fa1c52675d58f0b36c5]()
+- [https://ahart266.imgur.com/all]https://ahart266.imgur.com/all)
+- [https://cloudinary.com/console/c-6531122b771e5ed52f82ce07ad6455/media_library/folders/df93c0d748764fa1c52675d58f0b36c5](https://cloudinary.com/console/c-6531122b771e5ed52f82ce07ad6455/media_library/folders/df93c0d748764fa1c52675d58f0b36c5
 
 
 ### MVP/PostMVP - 5min
