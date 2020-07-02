@@ -1,20 +1,60 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import { Route, Link } from "react-router-dom";
+import About from './About';
+import './Home.scss';
+import CountriesList from './CountriesList';
+import Contact from './Contact';
 
+const Home = () => {
+  
+  const [menuCSS, setMenuCSS] = useState({
+    display: "none",
+    switch:true,
+    status: "close"
+  })
 
-function Home (props) {
-    console.log(props)
-    return (
-        <>
-          <div className="Home">
-            <p>
-              <Link to={"/Home"} />
-            </p>
-          </div>
-          <h2>Countries</h2>
-          <p />
-        </>
-      );
+   const showMenu = () => {
+
+    if (menuCSS.switch === true) {
+      setMenuCSS({
+        display: "block",
+        switch: false,
+        status: "open"
+      })
+    } else {
+      setMenuCSS({
+        display: "none",
+        switch: true,
+        status:"close"
+      })
     }
 
-export default Home;
+
+  }
+    
+  return (
+      
+        
+       <nav>
+         
+         <div className="BurgerMenu_Container" 
+         role="button"
+         onClick={showMenu}>
+           <i className={menuCSS.status}></i>
+           <i className={menuCSS.status}></i>
+           <i className={menuCSS.status}></i>
+           </div>
+          <ul style={{display: menuCSS.display}}>
+           <li><Link to="/Home">Home</Link></li>
+           <li><Link to="/About">About</Link></li>
+           <li><Link to="/CountriesList">Countries</Link></li>
+           <li><Link to="/Contact">Contact Us</Link></li>
+           </ul>
+       </nav>
+        
+       
+      );
+    }
+  
+
+  export default Home;
