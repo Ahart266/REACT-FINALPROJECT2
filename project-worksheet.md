@@ -52,13 +52,14 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP EXAMPLE
 - Fully functional
 - Interactive components
-- Provide clickable buttons to navigate throughout the website
+- Provide clickable links to navigate throughout the website
 - Clickable links that provide detail descriptions of countries
 - Provide contact sheet that user can submit for more information
 
 #### PostMVP EXAMPLE
 
-- Adding an interactive logo
+- Applied open close navbar
+
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -81,24 +82,37 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Worksheet/ wireframes | B | 5hrs | 6hrs | 6hrs |
-| Create react/ App Add files for all components | A | 1hrs| hrs | hrs |
-| Construct about page and contract | C | 5hrs| hrs | hrs |
-| React routes/ make api calls/ parse data | A | 8hr | hrs | hrs |
-| Debug errors | B | 8hrs | hrs | hrs |
-| Creat links and buttons | B | 3hrs | hrs | hrs|
-| Learn create interactive logo/ research imgs/ Css | B | 8hrs | hrs | hrs |
+| Create react/ App Add files for all components | A | 1hrs| 2hrs | 2hrs |
+| Construct about page and contact | C | 5hrs| 5hrs | 5hrs |
+| React routes/ make api calls/ parse data | A | 8hr | 10hrs | 10hrs |
+| Debug errors | B | 8hrs | 8hrs | 8hrs |
+| Creat links and buttons | B | 3hrs | 4hrs | 4hrs|
+| Learn create interactive logo/ research imgs/ Css | B | 8hrs | 8hrs | 8hrs |
 | Youtube link | C | 1hr | hrs | hrs |
-| Total | H | 38hrs| 6hrs | 6hrs |
+| Total | H | 38hrs| 43hrs | 43hrs |
 
 ## Additional Libraries
-- 
+- unsplash
+- Sass
+
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+ }
+
+.open:nth-child(1){
+    transform: rotate(45deg) translateY(16px);
+
+  }
+.open:nth-child(2){
+    opacity: 0;
+    
+}
+.open:nth-child(3){
+    transform: rotate(-45deg) translateY(-16px);
+    
 }
 ```

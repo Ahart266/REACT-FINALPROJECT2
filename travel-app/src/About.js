@@ -11,7 +11,7 @@ function About () {
         <Home />
           <div className="About">
           
-          <body>
+         
           <h2>About Us</h2>
             <p>
              
@@ -21,7 +21,7 @@ function About () {
             </p>
 
           
-          </body>
+         
           </div>
         </>
       );

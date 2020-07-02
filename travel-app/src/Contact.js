@@ -9,7 +9,7 @@ function Contact() {
          <Home />
         <div className="Contact">
            <h2>Contacts</h2>
-           <p> For any additional travel info please contact us</p>
+           <p> For any additional travel info please contact us at</p>
            <section>
            
         

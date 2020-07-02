@@ -8,7 +8,9 @@ function Title() {
             <body>
                
             <Link to="/Home"><button>Enter</button></Link>
-           
+            <div className='title'>
+           <h2> Did You Know? </h2>
+           </div>
             </body>
         </div>
     )
