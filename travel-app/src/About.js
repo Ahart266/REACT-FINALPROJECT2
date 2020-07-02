@@ -10,8 +10,9 @@ function About () {
         <>
         <Home />
           <div className="About">
-          <h2>About Us</h2>
+          
           <body>
+          <h2>About Us</h2>
             <p>
              
               <span className="did">Did You Know</span> Is a travel based app to that provides you with informative information 

@@ -1,4 +1,9 @@
-#CountriesList, body{
+ body{
   background-image: url("https://res.cloudinary.com/twin2052000/image/upload/v1591852788/Images/thomas-bennie-B21WLsX6a5c-unsplash_hn18yb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
 
 }
+
+

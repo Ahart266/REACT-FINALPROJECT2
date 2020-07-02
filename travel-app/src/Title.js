@@ -5,7 +5,11 @@ import Home from './Home';
 function Title() {
     return (
         <div>
-            <h5><Link to="/Home">Enter</Link></h5>
+            <body>
+               
+            <Link to="/Home"><button>Enter</button></Link>
+           
+            </body>
         </div>
     )
 };

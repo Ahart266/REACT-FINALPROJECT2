@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './CountriesList.css';
-import CountriesDetails from './CountriesDetails';
+ import CountriesDetails from './CountriesDetails';
 import Form from './Form';
 import Home from './Home';
 
@@ -47,9 +47,11 @@ function CountriesList() {
         return (
             <div>
                 <Home />
-                <div className="App">
-                    <h6>CountriesList</h6>
+                <div className="list">
+                    
+                    <h2>CountriesList</h2>
                     <Form handleSubmit={handleSubmit} />
+                    
                 </div>
             </div>
         )
@@ -58,16 +60,22 @@ function CountriesList() {
         return (
             <div>
                 <Home />
-                <div className="App">
-                    <h6>CountriesList</h6>
+                <div className="list">
+                   
+                    <h3>CountriesList</h3>
                     <Form handleSubmit={handleSubmit} />
                     <div>
-                        <div>
+                        <div className="wrapper">
                             <h2>{countries.Name}</h2>
-                            <img style={{ maxHeight: 50 + 'px', maxWidth: 50 + 'px' }} src={countries.Flag}></img>
+                            <h5>{countries.Alpha2Code}</h5>
+                            <p>{countries.CurrencyName}
+                                {countries.CurrencySymbol}
+                            </p>
+                            <img style={{ maxHeight: 400 + 'px', maxWidth: 400 + 'px' }} src={countries.Flag}></img>
                         </div>
 
                     </div>
+                   
                 </div>
             </div>
         )

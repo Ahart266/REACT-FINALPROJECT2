@@ -10,22 +10,22 @@ const Home = () => {
   const [menuCSS, setMenuCSS] = useState({
     display: "none",
     switch:true,
-    status: "close"
+    status: "close",
   })
 
    const showMenu = () => {
 
     if (menuCSS.switch === true) {
       setMenuCSS({
-        display: "block",
+        display: "flex",
         switch: false,
-        status: "open"
+        status: "open",
       })
     } else {
       setMenuCSS({
         display: "none",
         switch: true,
-        status:"close"
+        status:"close",
       })
     }
 
@@ -34,7 +34,7 @@ const Home = () => {
     
   return (
       
-        
+        <>
        <nav>
          
          <div className="BurgerMenu_Container" 
@@ -51,7 +51,11 @@ const Home = () => {
            <li><Link to="/Contact">Contact Us</Link></li>
            </ul>
        </nav>
-        
+       <main>
+       <span className="know"> Did You know ?</span>
+       </main>
+     
+        </>
        
       );
     }

@@ -1,24 +1,9 @@
-body {
-  background-image: url("https://res.cloudinary.com/twin2052000/image/upload/v1591852730/Images/vincent-guth-ISI5DlnYvuY-unsplash_hdo39p.jpg");
+/* body { */
+  /* background-image: url("https://res.cloudinary.com/twin2052000/image/upload/v1591852730/Images/vincent-guth-ISI5DlnYvuY-unsplash_hdo39p.jpg"); */
 
-}
+/* } */
 
-h2 {
-    font-family: 'Monospace';
-    color: rgb(26,17,41);
-    text-align: center;
-    font-size: 90px;
-}
 
-.did {
-    color: gold;
-    text-emphasis: italic;
-}
 
-p {
-  font-size: x-large;
-  background-color: rgba(31, 5, 71, 0.5);
-  border-radius: 20px;
-  justify-content: space-evenly;
-  padding: 10px;
-}
+
+
